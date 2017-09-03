@@ -1,0 +1,284 @@
+/* Nav bar */
+
+html, body {
+  height: 100%;
+  min-height: 100%;
+  font: 22px "Montserrat", sans-serif;
+}
+
+p {font-size: 16px;}
+
+
+}
+
+.navbar-dark .navbar-brand {
+	color: white;
+	font-family: serif;
+	font-size: 2rem;
+}
+
+.navbar-brand {
+	font-family: serif;
+}
+
+ .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+      opacity: .85;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c;
+  }
+
+
+/* Watch Carousel */
+
+.headerslide {
+  width: 100%;
+  height: 100%;
+  margin-left:auto ;
+  margin-right:auto ;
+}
+
+.headerslide-inner {
+  height: 100%;
+}
+
+.headerslide .slick-list {
+  height: 100% !important;
+}
+
+.headerslide .slick-track {
+  height: 100% !important;
+}
+
+.headerslide .slick-slide {
+  height: 100% !important;
+}
+
+.slide-container {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+/*.slick-slide img {
+  height: 100%;
+  width: auto;
+  margin: 0 auto;
+  display: block;
+}*/
+
+.slick-arrow {
+  display: none !important;
+}
+
+/* About Page */
+
+.bg-1 { 
+      background-color: gray;
+      color: #ffffff;
+}
+
+.about-padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.bg-2 { 
+      background-color: gray;
+      color: #ffffff;
+}
+
+
+.active-tour {
+  padding-top: 150px;
+  padding-bottom: 125px;
+  background-color: 
+}
+
+.modal-header {
+  padding: 5px;
+}
+
+/* custom */
+
+.myWatch {
+  padding: 0.5em;
+  min-width: 115px;
+  width: 100px;
+  max-width: 700px;
+  border-right: 2px dotted gray;
+  float: left;
+}
+
+
+#clock {
+  width: 30em;
+  height: 30em;
+  border-radius: 50%;
+  margin: auto;
+  position: relative;
+}
+
+#clock div, .faceBox {
+  border: 0;
+  background-color: black;
+  position: absolute;
+  transform-origin: center bottom;
+  -webkit-transform-origin: center bottom;
+  -moz-transform-origin: center bottom;
+  -o-transform-origin: center bottom;
+  transform: rotate(0deg);
+}
+
+#clock #hour {
+  border-radius: 0.75em 0.75em 0 0;
+  width: 1.5em;
+  height: 6em;
+  top: 9em;
+  left: 14.25em;
+  z-index: 30;
+}
+
+#clock #minute {
+  border-radius: 0.5em;
+  width: 1em;
+  height: 11em;
+  top: 4em;
+  left: 14.5em;
+  z-index: 20;
+}
+
+#clock #second {
+  border-radius: 0.25em;
+  width: 0.25em;
+  height: 14em;
+  top: 1em;
+  left: 14.75em;
+  z-index: 10;
+  background-color: red;
+}
+
+#clock #center {
+  height:2em;
+  width: 2em;
+  border-radius:50%;
+  top:14em;
+  left:14em;
+  z-index:50;
+  transform:rotate(0deg);
+}
+
+.smallTick {
+  width: 0.1em;
+  height: 0.5em;
+  background-color: black;
+}
+
+.mediumTick {
+  width: 0.25em;
+  height: 0.8em;
+  background-color: black;
+}
+
+.largeTick {
+  width: 0.4em;
+  height: 0.8em;
+  background-color: black;
+  position: relative;
+}
+
+.tickNum {
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  line-height: 0;
+  color: black;
+  position: relative;
+  top: 1em;
+  left: -0.2em;
+  z-index: 1;
+}
+
+.faceBox {
+  border: 0;
+  width: 0;
+  height: 15em;
+  top:0;
+  left: 15em;
+  position: absolute;
+  text-align: center;
+  overflow: visible;
+  margin: 0 auto;
+}
+
+._drag {
+  font-family: arial, sans-serif;
+}
+
+@media (max-width: 550px) {
+  ._drag {
+    display: none;
+  }
+}
+
+
+
+
+/* Watch Type Examples */
+
+.discover-active {
+  padding-top: 250px;
+  padding-bottom: 100px;
+}
+
+
+.discover-pad {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.slick-slide img {
+  display: inline;
+}
+
+.btn-slideshow {
+  background-color: blue;
+  color: red;
+}
+
+
+
+/* Sign up Examples */
+
+.signup-section {
+  background-color: #909aa0;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* Footer */
+
+.footer-styling {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-text {
+  font-family: serif;
+}
+
+
+/* Footer */
+
+
